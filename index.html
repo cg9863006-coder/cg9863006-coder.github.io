@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-page-node-id="egqkw7JpkERgqTa7Kjh5iY">
+<head data-page-node-id="OmpN5EF3MBs1fMBjkIrZTh">
+<meta charset="UTF-8" data-page-node-id="rYRMdLium48gH5PbmoZXnD">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" data-page-node-id="AaaB7egObjhVSqkS2ve2S2">
+<title>我的个人主页</title>
+<style>
+  :root {
+    --bg: #f7f8fa;
+    --card: #ffffff;
+    --text: #1f2328;
+    --muted: #656d76;
+    --accent: #0969da;
+    --border: #e4e7eb;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .container { max-width: 860px; margin: 0 auto; padding: 0 24px; }
+
+  /* Hero */
+  .hero {
+    text-align: center;
+    padding: 90px 24px 70px;
+  }
+  .avatar {
+    width: 108px; height: 108px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #0969da, #8250df);
+    color: #fff;
+    font-size: 44px;
+    display: flex; align-items: center; justify-content: center;
+    margin: 0 auto 24px;
+    font-weight: 600;
+  }
+  .hero h1 { font-size: 34px; margin-bottom: 10px; }
+  .hero p { color: var(--muted); font-size: 17px; max-width: 560px; margin: 0 auto; }
+  .hero .tags { margin-top: 22px; }
+  .tag {
+    display: inline-block;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 4px 14px;
+    margin: 4px;
+    font-size: 13px;
+    color: var(--muted);
+  }
+
+  /* Sections */
+  section { padding: 36px 0; }
+  h2 {
+    font-size: 22px;
+    margin-bottom: 18px;
+    display: flex; align-items: center; gap: 8px;
+  }
+  h2::before { content: ""; width: 4px; height: 20px; background: var(--accent); border-radius: 2px; display: inline-block; }
+
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 22px 26px;
+    margin-bottom: 14px;
+    transition: box-shadow .2s;
+  }
+  .card:hover { box-shadow: 0 4px 14px rgba(0,0,0,.06); }
+  .card h3 { font-size: 17px; margin-bottom: 6px; }
+  .card .meta { font-size: 13px; color: var(--muted); margin-bottom: 8px; }
+  .card p { font-size: 15px; color: var(--muted); }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+
+  /* Contact */
+  .contact-links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 6px; }
+  .btn {
+    display: inline-block;
+    background: var(--accent);
+    color: #fff;
+    border-radius: 8px;
+    padding: 9px 22px;
+    font-size: 15px;
+  }
+  .btn:hover { background: #0757ba; text-decoration: none; }
+  .btn.ghost {
+    background: var(--card);
+    color: var(--text);
+    border: 1px solid var(--border);
+  }
+  .btn.ghost:hover { background: var(--bg); }
+
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 13px;
+    padding: 40px 0 50px;
+    border-top: 1px solid var(--border);
+    margin-top: 30px;
+  }
+</style>
+</head>
+<body data-page-node-id="ldypVzaHlXCHvMGwQVkvZY">
+
+<!-- ★★★ 修改指南：把下面所有「你的名字 / 示例内容」替换成你自己的信息 ★★★ -->
+
+<header class="hero" data-page-node-id="BhcnhetZWPtwmpPuzAteOK">
+  <div class="avatar" data-page-node-id="EqrcXRsrbqBb3Rrw9aLGVe">我</div>
+  <h1 data-page-node-id="kBQqEaUjkav7lIWaACoIGk">你好，我是 你的名字</h1>
+  <p data-page-node-id="NmTN7sCZc0FZIHXiiFCj1D">一句话介绍自己：比如「一名热爱技术与设计的开发者，正在构建有趣的东西。」</p>
+  <div class="tags" data-page-node-id="37lEv3C2foMRnDBLSPtdqp">
+    <span class="tag" data-page-node-id="RuFrfWuVBX0KxNjsPBo2PR">🛠 技能一</span>
+    <span class="tag" data-page-node-id="L4P4knUiEdBl62qGq5L7lU">💡 技能二</span>
+    <span class="tag" data-page-node-id="I4BbyN3cRaRTY2RKZbwVfU">📚 技能三</span>
+    <span class="tag" data-page-node-id="zhMrbYQ8TQUV7QealoBxQN">🌍 城市</span>
+  </div>
+</header>
+
+<main class="container" data-page-node-id="EgWqFYNkFyxmKBYEGlywTP">
+
+  <section id="about" data-page-node-id="Lr2oSfpvp0XYnBjlxjgA77">
+    <h2 data-page-node-id="zDOokfbloEnpZVlOMIDIQ0">关于我</h2>
+    <div class="card" data-page-node-id="BbEfhUiQbmoDJQBpUU4Iy1">
+      <p data-page-node-id="oHnCydoHfNSqXLdtYAySvD">在这里写一段自我介绍：你的职业/专业、正在做的事情、感兴趣的方向。
+      两三句话即可，比如「目前在学习前端开发，喜欢用代码把想法变成看得见的产品，
+      业余时间写博客记录学习过程。」</p>
+    </div>
+  </section>
+
+  <section id="projects" data-page-node-id="GDKi38IYsj5B5CTkrvE3Bx">
+    <h2 data-page-node-id="RWpa1AK2NHsafakNHqUkyq">项目 / 作品</h2>
+    <div class="grid" data-page-node-id="CbJthoHnjet5PvTWylpAkg">
+      <div class="card" data-page-node-id="BXVZTeYHDy2fAY9rAalIqK">
+        <h3 data-page-node-id="OZLBIe6kOoVAXN1VCESNHA">项目一名称</h3>
+        <div class="meta" data-page-node-id="W9vi4spuqosTmAjo6eVL9W">2026 · 个人项目</div>
+        <p data-page-node-id="kB3shHVomvKHXc1tf1Qy3K">用一两句话描述这个项目做了什么、用了什么技术。</p>
+      </div>
+      <div class="card" data-page-node-id="6mcvTfAqaR5Np5RUK10o5i">
+        <h3 data-page-node-id="Rjrgb7cdtDWtx2FTuNJLu8">项目二名称</h3>
+        <div class="meta" data-page-node-id="jlCbaHYtZv9NVzjEy3gaOp">2025 · 课程作业</div>
+        <p data-page-node-id="d3LYA7CVULjilKzmsw6uVC">替换成你的真实项目或作品，没有也可以先删掉这个卡片。</p>
+      </div>
+      <div class="card" data-page-node-id="wGVQMZgh07CVQDkY1RFfiq">
+        <h3 data-page-node-id="qUoeavoD52EGo6D8S1jWwc">项目三名称</h3>
+        <div class="meta" data-page-node-id="bxPGS2VQsDX6CFmMXFaQop">2025 · 开源贡献</div>
+        <p data-page-node-id="gds3Sz0FapLobCKIDSpEBZ">可以放 GitHub 仓库链接、设计作品、文章合集等。</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" data-page-node-id="aDW2doZsMPnR81Veg8vbWy">
+    <h2 data-page-node-id="7vIooypQD62TlQqgUC59xG">联系我</h2>
+    <div class="contact-links" data-page-node-id="rHPGgQWSZ7Cljcobmvdjfp">
+      <a class="btn" href="mailto:you@example.com" data-page-node-id="L3YNW5WGJDQM4PCZHetG0K">✉️ 邮箱</a>
+      <a class="btn ghost" href="https://github.com/你的用户名" data-page-node-id="P4zLNof2CTr4z8KZuN6UaZ">GitHub</a>
+      <a class="btn ghost" href="#" data-page-node-id="oeBcImueNSiGQkoDDgkSDa">博客 / 其他链接</a>
+    </div>
+  </section>
+
+</main>
+
+<footer data-page-node-id="dEYP34iHOjsshBrAEj3vyc">
+  © 2026 你的名字 · 托管于 GitHub Pages
+</footer>
+
+</body>
+</html>
